@@ -40,7 +40,7 @@ The TMS-RGB will have to fit flush under the socket that the TMS9128 will plug i
 
 Place the TMS-RGB on the socket, ensuring it is flush and that pin 1 of the TMS-RGB, denoted by the square pad, is on the same end as the key notch of the socket. Solder the signal pads of the TMS-RGB to the pins of the socket.
 
-<img alt="TMS-RGB soldered in place" src="images/02_TMS-RGB on socket.jpg" height=600>
+<img alt="TMS-RGB soldered in place" src="images/02_TMS-RGB on socket.jpg">
 
 ### 3. Wire up the TMS-RGB and insulate ###
 
