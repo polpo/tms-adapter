@@ -4,7 +4,7 @@ This is a PCB that will let you plug a TMS9128 VDP, along with a [TMS-RGB](https
 
 The adapter is intended to go in the sandwich of: TMS9128 - socket - TMS-RGB - adapter - pin headers - socket - MSX motherboard.
 
-<img alt="Front and back of board" src="tms-adapter.png" height=400> <img alt="Assembled adapter + TMS-RGB" src="images/07_Finished 2.jpg" height=400>
+<img alt="Front and back of board" src="tms-adapter.png" width=300> <img alt="Assembled adapter + TMS-RGB" src="images/07_Finished 2.jpg" width=525>
 
 
 This adapter PCB does the following:
@@ -34,7 +34,7 @@ TMS9128 chips are available on the used market from eBay, AliExpress, UTSource, 
 
 The TMS-RGB will have to fit flush under the socket that the TMS9128 will plug into, meaning the holes in the TMS-RGB will have to fit over the larger diameter tops of the socket's machine pins. The plated pads that the TMS-RGB uses for its signals are large enough for this, but the un-plated holes are just a bit too small. Use a pin vise with a small diameter drill bit to enlarge the un-plated holes by hand. The PCB should cut easily so a power drill is not necessary! Be *very careful* to not drill holes large enough to come into contact with the ground plane on the TMS-RGB. The ground plane hugs these un-plated holes closely, and if the pins of the TMS9128 are shorted to ground, things will not work!
 
-<img alt="Drilling out the holes on the TMS-RGB with a pin vise" src="images/01_Pin vise.jpg" height=600>
+<img alt="Drilling out the holes on the TMS-RGB with a pin vise" src="images/01_Pin vise.jpg" width=400>
 
 ### 2. Solder the TMS-RGB to the socket ###
 
