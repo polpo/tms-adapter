@@ -14,7 +14,7 @@ This adapter PCB does the following:
 
 ## Rationale ##
 
-I have a Sony HB-101 "HitBit Mezzo" MSX computer that uses the relatively rare TMS9118 VDP. This is the variant that has composite output and supports 16Kx4 video RAM chips. Adding RGB output to systems using these TI VDPs is possible with the TMS-RGB project, but it requires using a VDP with component video output. For systems that use the TMS9118 VDP, a TMS9128 is a close match but the CPUCLK pin is in a different location. My HB-101 requires CPUCLK, so relocating it on this adapter is necessary.
+I have a Sony HB-101 "HitBit Mezzo" MSX computer that uses the relatively rare TMS9118 VDP. This is the variant that has composite output and supports 16Kx4 video RAM chips. Adding RGB output to systems using these TI VDPs is possible with the TMS-RGB project, but it requires using a VDP with component video output. For systems that use the TMS9118 VDP, a TMS9128 is a close match but the CPUCLK pin is in a different location. My HB-101 requires CPUCLK, so relocating the CPUCLK pinn is necessary. While it is possible to directly install a TMS9128 and relocate CPUCLK by cutting the clock trace on the PCB, this particular MSX is rare and valuable and I want the system to be as close to original as possible.
 
 ## Making the board ##
 
